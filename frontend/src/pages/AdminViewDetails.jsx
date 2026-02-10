@@ -9,6 +9,7 @@ const getMapLink = (lat, lon) => {
   return `https://www.google.com/maps?q=${lat},${lon}`;
 };
 
+
 const getServerBaseUrl = () => {
   // Use your server IP or localhost specifically
   return `http://192.168.0.37:5000`; 
