@@ -1,0 +1,30 @@
+[data-sonner-toast] {
+  position: relative !important; /* Ensures the button stays inside the card */
+}
+
+[data-sonner-toast] [data-close-button] {
+  position: absolute !important;
+  top: 8px !important;   /* Adjust distance from top */
+  right: 8px !important; /* Adjust distance from right */
+  left: auto !important; /* Override default positioning */
+  transform: none !important;
+  background: transparent !important; /* Optional: removes background bubble */
+  border: none !important;
+}
+.swal2-rounded {
+  border-radius: 18px !important;
+}
+
+.native-android-alert {
+  border-radius: 22px !important;
+  font-family: Roboto, Arial;
+}
+
+.native-android-alert .swal2-title {
+  font-size: 18px;
+}
+
+.native-android-alert .swal2-html-container {
+  font-size: 14px;
+  margin-top: 8px;
+}
